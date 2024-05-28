@@ -450,32 +450,32 @@ export const projects = [
     github: "https://github.com/rishavchanda/Breaking-Bad",
     webapp: "https://breaking-bad-webapp.netlify.app",
   },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
+  {
+    id: 7,
+    title: "Shrink Me",
+    date: "",
+    description:
+      "Introducing Shrink Me, The URL Shortener, a streamlined and efficient tool built with Express.js and HTML designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. Leveraging the robust capabilities of Express.js, the backend ensures rapid processing and reliable performance, while the clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkHrg85_QndDCQbYq5T36PQwZ76ILDd3NNA&s",
+    tags: ["NodeJS", "ExpressJS", "HTML",],
+    category: "",
+    github: "https://github.com/swa-aham/URL-Shortner",
+    webapp: "https://github.com/swa-aham/URL-Shortner",
+  },
+  {
+    id: 8,
+    title: "Auto Restaura",
+    date: "",
+    description:
+      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+    image:
+      "https://assets-global.website-files.com/64451fa6415fbb6349d3d3f4/660595b5fa53ba2780a4571d_Main%2520page.webp",
+    tags: ["MongoDB", "JavaScript", "CSS", "React"],
+    category: "machine learning",
+    github: "https://github.com/swa-aham/Restaurant-Automation-System",
+    webapp: "https://github.com/swa-aham/Restaurant-Automation-System",
+  },
 ];
 
 export const TimeLineData = [
