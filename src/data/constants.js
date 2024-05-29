@@ -135,7 +135,7 @@ export const skills = [
     ],
   },
   {
-    title: "Languages & Tools",
+    title: "Programming Languages",
     skills: [
       {
         name: "C",
@@ -153,6 +153,17 @@ export const skills = [
         name: "Java",
         image: "https://icon.icepanel.io/Technology/svg/Java.svg",
       },
+      {
+        name: "SQL",
+        image:
+          "https://icon.icepanel.io/Technology/svg/Azure-SQL-Database.svg",
+      },
+      
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
       {
         name: "Git",
         image:
@@ -182,6 +193,34 @@ export const skills = [
         name: "Postman",
         image:
           "https://icon.icepanel.io/Technology/svg/Postman.svg",
+      },
+    ],
+  },
+  {
+    title: "Fundamentals",
+    skills: [
+      {
+        name: "Data Structures",
+        image: "https://cdn1.iconfinder.com/data/icons/business-bicolor-3/512/social_graph-512.png",
+      },
+      {
+        name: "Algorithms",
+        image:
+          "https://icon.icepanel.io/Technology/svg/The-Algorithms.svg",
+      },
+      {
+        name: "Object Oriented Programming",
+        image:
+          "https://cdn-icons-png.freepik.com/512/9875/9875545.png",
+      },
+      {
+        name: "Operating Systems",
+        image:
+          "https://icon.icepanel.io/Technology/png-shadow-512/Linux.png",
+      },
+      {
+        name: "Database Management System",
+        image: "https://icon.icepanel.io/Technology/svg/SQL-Developer.svg",
       },
     ],
   },
