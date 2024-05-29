@@ -486,23 +486,23 @@ export const projects = [
   },
   {
     id: 7,
-    title: "AutoDine",
+    title: "Shrink Me",
     date: "",
     description:
-      "Introducing AutoDine, a revolutionary restaurant automation system built from the ground up for efficiency and ease of use. This full-stack project utilizes the power of JavaScript, HTML, CSS, and MongoDB to streamline your entire operation. From online ordering and table reservations to real-time kitchen management and insightful reporting, AutoDine empowers your restaurant to flourish in today's fast-paced digital world.",
+      "Introducing Shrink Me, The URL Shortener, a streamlined and efficient tool built with Express.js and HTML designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. Leveraging the robust capabilities of Express.js, the backend ensures rapid processing and reliable performance, while the clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkHrg85_QndDCQbYq5T36PQwZ76ILDd3NNA&s",
-    tags: ["NodeJS", "JavaScript", "CSS", "HTML", "MongoDB"],
+    tags: ["NodeJS", "ExpressJS", "HTML",],
     category: "",
     github: "https://github.com/swa-aham/URL-Shortner",
     webapp: "https://github.com/swa-aham/URL-Shortner",
   },
   {
     id: 8,
-    title: "Auto Restaura",
+    title: "AutoDone",
     date: "",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+      "Introducing AutoDine, a revolutionary restaurant automation system built from the ground up for efficiency and ease of use. This full-stack project utilizes the power of JavaScript, HTML, CSS, and MongoDB to streamline your entire operation. From online ordering and table reservations to real-time kitchen management and insightful reporting, AutoDine empowers your restaurant to flourish in today's fast-paced digital world.",
     image:
       "https://assets-global.website-files.com/64451fa6415fbb6349d3d3f4/660595b5fa53ba2780a4571d_Main%2520page.webp",
     tags: ["MongoDB", "JavaScript", "CSS", "React"],
