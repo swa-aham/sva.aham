@@ -499,7 +499,7 @@ export const projects = [
   },
   {
     id: 8,
-    title: "AutoDone",
+    title: "AutoDine",
     date: "",
     description:
       "Introducing AutoDine, a revolutionary restaurant automation system built from the ground up for efficiency and ease of use. This full-stack project utilizes the power of JavaScript, HTML, CSS, and MongoDB to streamline your entire operation. From online ordering and table reservations to real-time kitchen management and insightful reporting, AutoDine empowers your restaurant to flourish in today's fast-paced digital world.",
