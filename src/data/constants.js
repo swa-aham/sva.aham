@@ -486,13 +486,13 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Shrink Me",
+    title: "AutoDine",
     date: "",
     description:
-      "Introducing Shrink Me, The URL Shortener, a streamlined and efficient tool built with Express.js and HTML designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. Leveraging the robust capabilities of Express.js, the backend ensures rapid processing and reliable performance, while the clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
+      "Introducing AutoDine, a revolutionary restaurant automation system built from the ground up for efficiency and ease of use. This full-stack project utilizes the power of JavaScript, HTML, CSS, and MongoDB to streamline your entire operation. From online ordering and table reservations to real-time kitchen management and insightful reporting, AutoDine empowers your restaurant to flourish in today's fast-paced digital world.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkHrg85_QndDCQbYq5T36PQwZ76ILDd3NNA&s",
-    tags: ["NodeJS", "ExpressJS", "HTML",],
+    tags: ["NodeJS", "JavaScript", "CSS", "HTML", "MongoDB"],
     category: "",
     github: "https://github.com/swa-aham/URL-Shortner",
     webapp: "https://github.com/swa-aham/URL-Shortner",
