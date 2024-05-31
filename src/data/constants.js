@@ -379,7 +379,7 @@ export const projects = [
     description:
       "The Automated Resume Resumify project simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6-TiAn0plc26-OdLiL1Ma_FGWWqe5Hg7Qw&s",
+      "preview.png",
     tags: [
       "React Js",
       "MongoDb",
