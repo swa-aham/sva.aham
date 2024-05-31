@@ -377,7 +377,7 @@ export const projects = [
     title: "Resumify",
     date: "",
     description:
-      "The Automated Resume Resumify project simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
+      "Resumify simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
     image:
       "preview.png",
     tags: [
