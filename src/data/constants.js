@@ -374,10 +374,10 @@ export const projects = [
   // },
   {
     id: 1,
-    title: "Builder.io",
+    title: "Resumify",
     date: "",
     description:
-      "The Automated Resume Builder project simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
+      "The Automated Resume Resumify project simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6-TiAn0plc26-OdLiL1Ma_FGWWqe5Hg7Qw&s",
     tags: [
@@ -385,12 +385,11 @@ export const projects = [
       "MongoDb",
       "Node Js",
       "Express Js",
-      "Redux",
-      "NodeMailer",
+      "React PDF Renderer",
     ],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/swa-aham/Resumify",
+    webapp: "https://resumify-black.vercel.app/",
   },
   // {
   //   id: 2,
