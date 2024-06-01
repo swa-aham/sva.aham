@@ -233,7 +233,7 @@ export const experiences = [
     role: "Software Engineer Intern",
     company: "Crestdata.ai",
     date: "Dec 2023 - Present",
-    desc: "Working on backend part .",
+    desc: "Developed an Elastic Search Connector that fetches repositories, branches, pull requests & commits from bitbucket, and indexes them to Elasticsearch to make them searchable. Achieved 40% fast search for data using Elasticsearch. Implemented Document Level Security which led to 100% controlled access to indexed documents.",
     skills: [
       "Docker",
       "AWS",
@@ -249,7 +249,7 @@ export const experiences = [
     role: "Summer Research Intern",
     company: "DA-IICT",
     date: "May 2023 - July 2023",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Worked on the frontend of the web application using ReactJS, Redux, and Material UI.",
     skills: [
       "ReactJS",
       "Redux",
