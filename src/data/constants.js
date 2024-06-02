@@ -468,7 +468,7 @@ export const projects = [
     description:
       "Introducing Shrink Me, The URL Shortener, the simplest, streamlined and efficient tool built with HTML, CSS, and JavaScript. Our URL Shortener designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. The clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkHrg85_QndDCQbYq5T36PQwZ76ILDd3NNA&s",
+      "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/url-shortener.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
     tags: ["JavaScript", "CSS", "HTML",],
     category: "",
     github: "https://github.com/swa-aham/URL-Shortner",
