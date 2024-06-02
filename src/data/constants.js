@@ -299,7 +299,7 @@ export const education = [
     school: "Dhirubhai Ambani Institute of Information & Communication Technology, Gandhinagar",
     date: "2020 - 2024",
     grade: "7.08 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I have completer my Bachelor's degree in Information & Communication Technology at DA-IICT, Gandhinagar. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -308,7 +308,7 @@ export const education = [
     school: "Shri BAPS Swaminarayan Vidyamandir",
     date: "2018 - 2020",
     grade: "90%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+    desc: "I completed my class 12 high school education at Shri BAPS Swaminarayan Vidyamandir, where I studied PCM with Computer Science.",
     degree: "GSEB(XII), PCM with Computer",
   },
   // {
