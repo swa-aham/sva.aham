@@ -422,19 +422,19 @@ export const projects = [
   //   github: "",
   //   webapp: "",
   // },
-  // {
-  //   id: 10,
-  //   title: "Job Finding App",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-  //   tags: ["React Native", "JavaScript", "Axios"],
-  //   category: "android app",
-  //   github: "",
-  //   webapp: "",
-  // },
+  {
+    id: 10,
+    title: "Employee Management App",
+    date: "",
+    description:
+      "Employee Management System: Manage employee data (add, view, edit, delete) in a user-friendly terminal interface. Simplifies HR tasks and keeps employee information organized. Built with Python for easy use and customization.",
+    image:
+      "https://media.licdn.com/dms/image/D5612AQGnkBqtztLtEA/article-cover_image-shrink_720_1280/0/1693731593756?e=1723075200&v=beta&t=5Ii_rpLLLqtQqeQa0xc3B9XY1Zme82tTThXam5wwRPk",
+    tags: ["Python"],
+    category: "",
+    github: "https://github.com/swa-aham/Employee-Management-System",
+    webapp: "https://github.com/swa-aham/Employee-Management-System",
+  },
   {
     id: 4,
     title: "Elastic Search Connector",
