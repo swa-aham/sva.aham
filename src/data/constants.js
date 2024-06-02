@@ -299,7 +299,7 @@ export const education = [
     school: "Dhirubhai Ambani Institute of Information & Communication Technology, Gandhinagar",
     date: "2020 - 2024",
     grade: "7.08 CGPA",
-    desc: "I have completer my Bachelor's degree in Information & Communication Technology at DA-IICT, Gandhinagar. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    desc: "I have completed my Bachelor's degree in Information & Communication Technology at DA-IICT, Gandhinagar. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
