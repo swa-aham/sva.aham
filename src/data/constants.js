@@ -311,15 +311,6 @@ export const education = [
     desc: "I completed my class 12 high school education at Shri BAPS Swaminarayan Vidyamandir, where I studied PCM with Computer Science.",
     degree: "GSEB(XII), PCM with Computer",
   },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Vasudha High School",
-  //   date: "2007 - 2018",
-  //   grade: "94%",
-  //   desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-  //   degree: "GSEB(X), Science",
-  // },
 ];
 
 export const projects = [
