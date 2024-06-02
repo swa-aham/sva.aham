@@ -324,6 +324,25 @@ export const education = [
 
 export const projects = [
   {
+    id: 1,
+    title: "Resumify",
+    date: "",
+    description:
+      "Resumify simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
+    image:
+      "preview.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "React PDF Renderer",
+    ],
+    category: "web app",
+    github: "https://github.com/swa-aham/Resumify",
+    webapp: "https://resumify-black.vercel.app/",
+  },
+  {
     id: 9,
     title: "AI-Chatbot",
     date: "",
@@ -359,38 +378,19 @@ export const projects = [
   //   webapp: "",
   //   member: [
   //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
+  //       name: "",
+  //       img: "",
+  //       linkedin: "",
+  //       github: "",
   //     },
   //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
+  //       name: "",
+  //       img: "",
+  //       linkedin: "",
+  //       github: "",
   //     },
   //   ],
   // },
-  {
-    id: 1,
-    title: "Resumify",
-    date: "",
-    description:
-      "Resumify simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
-    image:
-      "preview.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "React PDF Renderer",
-    ],
-    category: "web app",
-    github: "https://github.com/swa-aham/Resumify",
-    webapp: "https://resumify-black.vercel.app/",
-  },
   // {
   //   id: 2,
   //   title: "Brain Tumor Detection",
@@ -398,23 +398,23 @@ export const projects = [
   //   description:
   //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
   //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+  //     "",
   //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
   //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
+  //   github: "",
+  //   webapp: "",
   //   member: [
   //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
+  //       name: "",
+  //       img: "",
+  //       linkedin: "",
+  //       github: "",
   //     },
   //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
+  //       name: "",
+  //       img: "",
+  //       linkedin: "",
+  //       github: "",
   //     },
   //   ],
   // },
@@ -425,11 +425,11 @@ export const projects = [
   //   description:
   //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
   //   image:
-  //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+  //     "",
   //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
   //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+  //   github: "",
+  //   webapp: "",
   // },
   // {
   //   id: 10,
@@ -441,8 +441,8 @@ export const projects = [
   //     "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
   //   tags: ["React Native", "JavaScript", "Axios"],
   //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Job-finder-App",
-  //   webapp: "https://github.com/rishavchanda/Job-finder-App",
+  //   github: "",
+  //   webapp: "",
   // },
   {
     id: 4,
@@ -457,19 +457,6 @@ export const projects = [
     github: "https://github.com/swa-aham/Elastic-Search-Connector",
     webapp: "https://github.com/swa-aham/Elastic-Search-Connector",
   },
-  // {
-  //   id: 5,
-  //   title: "Todo Web App",
-  //   date: "Jun 2021",
-  //   description:
-  //     " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Todo-Web-App",
-  //   webapp: "https://rishav-react-todo.netlify.app/",
-  // },
   {
     id: 6,
     title: "The Wall Street",
@@ -480,21 +467,21 @@ export const projects = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcyKynHXI0K2lxLd9e7tckMV0ZZba7n6tLlw&s",
     tags: ["Python", "Pandas", "Numpy", "Machine Learning"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
+    github: "",
+    webapp: "",
   },
   {
     id: 7,
     title: "Shrink Me",
     date: "",
     description:
-      "Introducing Shrink Me, The URL Shortener, a streamlined and efficient tool built with Express.js and HTML designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. Leveraging the robust capabilities of Express.js, the backend ensures rapid processing and reliable performance, while the clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
+      "Introducing Shrink Me, The URL Shortener, the simplest, streamlined and efficient tool built with HTML, CSS, and JavaScript. Our URL Shortener designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. The clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkHrg85_QndDCQbYq5T36PQwZ76ILDd3NNA&s",
-    tags: ["NodeJS", "ExpressJS", "HTML",],
+    tags: ["JavaScript", "CSS", "HTML",],
     category: "",
     github: "https://github.com/swa-aham/URL-Shortner",
-    webapp: "https://github.com/swa-aham/URL-Shortner",
+    webapp: "https://url-shortner-chi-drab.vercel.app/",
   },
   {
     id: 8,
