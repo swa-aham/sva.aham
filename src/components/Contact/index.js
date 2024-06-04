@@ -150,8 +150,8 @@ const Contact = () => {
           <ContactTitle>Let's Connect 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Message" name="message" />
-          <ContactInputMessage placeholder="Start saying Hi..." rows="4" name="message" />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Say Hi..." rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
