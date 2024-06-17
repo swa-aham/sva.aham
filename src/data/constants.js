@@ -12,7 +12,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1ou1mCasCHjxrAjWjAsBUDclLrRYkURfZ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/soham-mandaviya/",
-  twitter: "",
+  twitter: "https://x.com/swa_aham",
   insta: "https://www.instagram.com/sva.aham/",
   facebook: "",
   email: "sohammandaviya@gmail.com"
