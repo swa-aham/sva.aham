@@ -442,7 +442,7 @@ export const projects = [
     description:
       "The Bitbucket to Elasticsearch Connector project facilitates seamless data integration between the Bitbucket platform and Elasticsearch, enabling efficient and comprehensive search capabilities. This connector retrieves data from the Bitbucket API—including repositories, commits, pull requests, issues, and other relevant information—then processes and transforms it into a format suitable for Elasticsearch ingestion. By indexing this data in Elasticsearch, the project enhances its accessibility and searchability, allowing users to leverage Elasticsearch's powerful query and aggregation features for deep insights and improved data management. This tool is invaluable for developers, project managers, and analysts needing quick and efficient access to Bitbucket data.",
     image:
-      "https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9jMWU2ZDNkNjRkNGNlMjE3MDA4OTk4YzIzZWIyYzY0YT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.Y4zYhkjzSnvOIWdTiMBuuxso6l3IRpMpKN6fZVr2C6Q",
+      "https://i.imghippo.com/files/3I3fI1718820000.png",
     tags: ["Elasticsearch", "Python", "Bitbucket API", ""],
     category: "",
     github: "https://github.com/swa-aham/Elastic-Search-Connector",
