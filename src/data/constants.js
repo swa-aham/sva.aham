@@ -233,7 +233,11 @@ export const experiences = [
     role: "Software Engineer Intern",
     company: "Crestdata.ai",
     date: "Dec 2023 - Present",
-    desc: "Developed an Elastic Search Connector that fetches repositories, branches, pull requests & commits from bitbucket, and indexes them to Elasticsearch to make them searchable. Achieved 40% fast search for data using Elasticsearch. Implemented Document Level Security which led to 100% controlled access to indexed documents.",
+    desc: <ul>
+      <li>Developed and implemented Elasticsearch data connectors for various platforms (GitHub, Confluence, Bitbucket, MySQL, Oracle, Redis, etc.) to fetch data from external sources and index it within Elasticsearch.</li>
+      <li>Increased searchability and accessibility of data across the organization by building connectors, resulting in a 40% reduction in search time.</li>
+      <li>Improved development workflows by streamlining data access through a centralized and searchable platform (Elasticsearch), ensuring 100% controlled access.</li>
+      </ul>,
     skills: [
       "Docker",
       "AWS",
