@@ -19,6 +19,7 @@ const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary + 99};
     margin-bottom: 10px;
+    margin-left: 15px;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
