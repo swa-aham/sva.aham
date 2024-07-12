@@ -102,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Soham Mandaviya. All rights reserved.
+          Soham Mandaviya
         </Copyright>
 
       </FooterWrapper>
