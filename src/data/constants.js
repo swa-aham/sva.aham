@@ -468,7 +468,7 @@ export const projects = [
     description:
       "Introducing AutoDine, a revolutionary restaurant automation system built from the ground up for efficiency and ease of use. This full-stack project utilizes the power of JavaScript, HTML, CSS, and MongoDB to streamline your entire operation. From online ordering and table reservations to real-time kitchen management and insightful reporting, AutoDine empowers your restaurant to flourish in today's fast-paced digital world.",
     image:
-      "",
+      "https://as1.ftcdn.net/v2/jpg/02/52/38/80/1000_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg",
     tags: ["MongoDB", "JavaScript", "CSS", "React"],
     category: "machine learning",
     github: "https://github.com/swa-aham/Restaurant-Automation-System",
