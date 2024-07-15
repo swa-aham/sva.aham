@@ -227,12 +227,13 @@ export const skills = [
 ];
 
 export const experiences = [
+  
   {
-    id: 0,
+    id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
-    role: "Software Engineer Intern",
-    company: "Crestdata.ai",
-    date: "Dec 2023 - Present",
+    role: "Software Engineer",
+    company: "Crest Data",
+    date: "May 2024 - Present",
     desc: <ul>
       <li>Developed and implemented Elasticsearch data connectors for various platforms (GitHub, Confluence, Bitbucket, MySQL, Oracle, Redis, etc.) to fetch data from external sources and index it within Elasticsearch.</li>
       <li>Increased searchability and accessibility of data across the organization by building connectors, resulting in a 40% reduction in search time.</li>
@@ -243,6 +244,18 @@ export const experiences = [
       "AWS",
       "Python",
       "Elasticsearch",
+      "ELK",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
+    role: "Software Engineer Intern",
+    company: "Crest Data",
+    date: "Dec 2023 - May 2024",
+    desc: "Developed and maintained the frontend of the web application using ReactJS, Redux, and Material UI.",
+    skills: [
+      "Python",
       "ELK",
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
@@ -256,7 +269,6 @@ export const experiences = [
     desc: "Worked on the frontend of the web application using ReactJS, Redux, and Material UI.",
     skills: [
       "ReactJS",
-      "Redux",
       "NodeJs",
       "Material UI",
       "HTML",
@@ -265,35 +277,6 @@ export const experiences = [
     ],
     doc: "",
   },
-  // {
-  //   id: 1,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "Fullstack Externship",
-  //   company: "Flipr",
-  //   date: "June 2023 - July 2023",
-  //   desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "NodeJs",
-  //     "Material UI",
-  //     "HTML",
-  //     "CSS",
-  //     "JavaScript",
-  //     "Docker",
-  //     "AWS",
-  //     "MongoDB",
-  //   ],
-  // },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-  //   role: "Open Source Contributor ",
-  //   company: "GirlScript Summer of Code",
-  //   date: "May 2023 - Present",
-  //   desc: "Contributing to different open-source projects and learn from industry experts",
-  //   doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  // },
 ];
 
 export const education = [
@@ -485,7 +468,7 @@ export const projects = [
     description:
       "Introducing AutoDine, a revolutionary restaurant automation system built from the ground up for efficiency and ease of use. This full-stack project utilizes the power of JavaScript, HTML, CSS, and MongoDB to streamline your entire operation. From online ordering and table reservations to real-time kitchen management and insightful reporting, AutoDine empowers your restaurant to flourish in today's fast-paced digital world.",
     image:
-      "https://assets-global.website-files.com/64451fa6415fbb6349d3d3f4/660595b5fa53ba2780a4571d_Main%2520page.webp",
+      "",
     tags: ["MongoDB", "JavaScript", "CSS", "React"],
     category: "machine learning",
     github: "https://github.com/swa-aham/Restaurant-Automation-System",
