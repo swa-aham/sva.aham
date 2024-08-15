@@ -15,7 +15,7 @@ export const Bio = {
   twitter: "https://x.com/swa_aham",
   insta: "https://www.instagram.com/sva.aham/",
   facebook: "",
-  email: "sohammandaviya@gmail.com"
+  email: "sohammandaviya@gmail.com",
 };
 
 export const skills = [
@@ -61,11 +61,11 @@ export const skills = [
       //   image:
       //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
       // },
-  //   ],
-  // },
-  // {
-  //   title: "Backend",
-  //   skills: [
+      //   ],
+      // },
+      // {
+      //   title: "Backend",
+      //   skills: [
       {
         name: "Node Js",
         image: "https://icon.icepanel.io/Technology/svg/Node.js.svg",
@@ -77,8 +77,7 @@ export const skills = [
       },
       {
         name: "TypeScript",
-        image:
-          "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+        image: "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
       },
       // {
       //   name: "Python",
@@ -91,21 +90,20 @@ export const skills = [
       },
       {
         name: "MongoDB",
-        image:
-          "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+        image: "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
       },
       // {
       //   name: "Firebase",
       //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       // },
-  //   ],
-  // },
-  // {
-  //   title: "DevOps",
-  //   skills: [
+      //   ],
+      // },
+      // {
+      //   title: "DevOps",
+      //   skills: [
       {
         name: "Docker",
-        image: "https://icon.icepanel.io/Technology/svg/Docker.svg"
+        image: "https://icon.icepanel.io/Technology/svg/Docker.svg",
       },
       // {
       //   name: "AWS S3",
@@ -132,18 +130,19 @@ export const skills = [
       //   image:
       //     "https://icon.icepanel.io/Technology/svg/Kibana.svg",
       // },
-  //   ],
-  // },
-  // {
-  //   title: "Programming Languages",
-  //   skills: [
+      //   ],
+      // },
+      // {
+      //   title: "Programming Languages",
+      //   skills: [
       {
         name: "C",
         image: "https://icon.icepanel.io/Technology/svg/C.svg",
       },
       {
         name: "C++",
-        image: "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg",
+        image:
+          "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg",
       },
       {
         name: "Python",
@@ -155,18 +154,16 @@ export const skills = [
       },
       {
         name: "SQL",
-        image:
-          "https://icon.icepanel.io/Technology/svg/Azure-SQL-Database.svg",
+        image: "https://icon.icepanel.io/Technology/svg/Azure-SQL-Database.svg",
       },
-  //   ],
-  // },
-  // {
-  //   title: "Tools",
-  //   skills: [
+      //   ],
+      // },
+      // {
+      //   title: "Tools",
+      //   skills: [
       {
         name: "Git",
-        image:
-          "https://icon.icepanel.io/Technology/svg/Git.svg",
+        image: "https://icon.icepanel.io/Technology/svg/Git.svg",
       },
       {
         name: "GitHub",
@@ -193,29 +190,27 @@ export const skills = [
       //   image:
       //     "https://icon.icepanel.io/Technology/svg/Postman.svg",
       // },
-  //   ],
-  // },
-  // {
-  //   title: "Fundamentals",
-  //   skills: [
+      //   ],
+      // },
+      // {
+      //   title: "Fundamentals",
+      //   skills: [
       {
         name: "Data Structures",
-        image: "https://cdn1.iconfinder.com/data/icons/business-bicolor-3/512/social_graph-512.png",
+        image:
+          "https://cdn1.iconfinder.com/data/icons/business-bicolor-3/512/social_graph-512.png",
       },
       {
         name: "Algorithms",
-        image:
-          "https://icon.icepanel.io/Technology/svg/The-Algorithms.svg",
+        image: "https://icon.icepanel.io/Technology/svg/The-Algorithms.svg",
       },
       {
         name: "Object Oriented Programming",
-        image:
-          "https://cdn-icons-png.freepik.com/512/9875/9875545.png",
+        image: "https://cdn-icons-png.freepik.com/512/9875/9875545.png",
       },
       {
         name: "Operating Systems",
-        image:
-          "https://icon.icepanel.io/Technology/png-shadow-512/Linux.png",
+        image: "https://icon.icepanel.io/Technology/png-shadow-512/Linux.png",
       },
       {
         name: "Database Management System",
@@ -226,54 +221,61 @@ export const skills = [
 ];
 
 export const experiences = [
-  
   {
-    id: 1,
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
     role: "Software Engineer",
     company: "Crest Data",
     date: "May 2024 - Present",
-    desc: <ul>
-      <li>Developed and implemented Elasticsearch data connectors for various platforms (GitHub, Confluence, Bitbucket, MySQL, Oracle, Redis, etc.) to fetch data from external sources and index it within Elasticsearch.</li>
-      <li>Increased searchability and accessibility of data across the organization by building connectors, resulting in a 40% reduction in search time.</li>
-      <li>Improved development workflows by streamlining data access through a centralized and searchable platform (Elasticsearch), ensuring 100% controlled access.</li>
-      </ul>,
-    skills: [
-      "Docker",
-      "AWS",
-      "Python",
-      "Elasticsearch",
-      "ELK",
-    ],
+    desc: (
+      <ul>
+        <li>
+          Developed and implemented Elasticsearch data connectors for various
+          platforms (GitHub, Confluence, Bitbucket, MySQL, Oracle, Redis, etc.)
+          to fetch data from external sources and index it within Elasticsearch.
+        </li>
+        <li>
+          Increased searchability and accessibility of data across the
+          organization by building connectors, resulting in a 40% reduction in
+          search time.
+        </li>
+        <li>
+          Improved development workflows by streamlining data access through a
+          centralized and searchable platform (Elasticsearch), ensuring 100%
+          controlled access.
+        </li>
+      </ul>
+    ),
+    skills: ["Docker", "AWS", "Python", "Elasticsearch", "ELK"],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
     role: "Software Engineer Intern",
     company: "Crest Data",
     date: "Dec 2023 - May 2024",
-    desc: "Developed and maintained the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "Python",
-      "ELK",
-    ],
+    desc: "Created an integration of Bitbucket platform with Elasticsearch to fetch data from external sources and index it within Elasticsearch.",
+    skills: ["Python", "ELK"],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
-    id: 0,
+    id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrpc-YSRNb8opSkAWej0DjHCL2REOmAuGNnBxx9CFBw&s",
     role: "Summer Research Intern",
     company: "DA-IICT",
     date: "May 2023 - July 2023",
-    desc: "Worked on the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "ReactJS",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+    desc: "Added some good features and improvements to the existing library management system of university  .",
+    skills: ["ReactJS", "NodeJs", "Material UI", "HTML", "CSS", "JavaScript"],
+    doc: "",
+  },
+  {
+    id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrpc-YSRNb8opSkAWej0DjHCL2REOmAuGNnBxx9CFBw&s",
+    role: "Full Stack Developer",
+    company: "Placement Cell of DA-IICT",
+    date: "Sept 2022 - Dec 2022",
+    desc: "Added features to the web application and improved user experience for the existing placcement portal.",
+    skills: ["React", "NodeJs", "JavaScript"],
     doc: "",
   },
 ];
@@ -282,11 +284,13 @@ export const education = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrpc-YSRNb8opSkAWej0DjHCL2REOmAuGNnBxx9CFBw&s",
-    school: "Dhirubhai Ambani Institute of Information & Communication Technology, Gandhinagar",
+    school:
+      "Dhirubhai Ambani Institute of Information & Communication Technology, Gandhinagar",
     date: "2020 - 2024",
     grade: "7.08 CGPA",
     desc: "I have completed my Bachelor's degree in Information & Communication Technology at DA-IICT, Gandhinagar. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-    degree: "Bachelor of Technology - BTech, Information & Communication Technology",
+    degree:
+      "Bachelor of Technology - BTech, Information & Communication Technology",
   },
   {
     id: 1,
@@ -306,8 +310,7 @@ export const projects = [
     date: "",
     description:
       "Resumify simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
-    image:
-      "preview.png",
+    image: "preview.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -335,7 +338,7 @@ export const projects = [
       "Express Js",
       "MUI",
       "CSS",
-      "EJS"
+      "EJS",
     ],
     category: "web app",
     github: "https://github.com/swa-aham/AI-Chatbot",
@@ -427,8 +430,7 @@ export const projects = [
     date: "",
     description:
       "The Bitbucket to Elasticsearch Connector project facilitates seamless data integration between the Bitbucket platform and Elasticsearch, enabling efficient and comprehensive search capabilities. This connector retrieves data from the Bitbucket API—including repositories, commits, pull requests, issues, and other relevant information—then processes and transforms it into a format suitable for Elasticsearch ingestion. By indexing this data in Elasticsearch, the project enhances its accessibility and searchability, allowing users to leverage Elasticsearch's powerful query and aggregation features for deep insights and improved data management. This tool is invaluable for developers, project managers, and analysts needing quick and efficient access to Bitbucket data.",
-    image:
-      "https://i.imghippo.com/files/3I3fI1718820000.png",
+    image: "https://i.imghippo.com/files/3I3fI1718820000.png",
     tags: ["Elasticsearch", "Python", "Bitbucket API", ""],
     category: "",
     github: "https://github.com/swa-aham/Elastic-Search-Connector",
@@ -455,7 +457,7 @@ export const projects = [
       "Introducing Shrink Me, The URL Shortener, the simplest, streamlined and efficient tool built with HTML, CSS, and JavaScript. Our URL Shortener designed to simplify your online experience. This project allows users to convert long, cumbersome URLs into concise, easy-to-share links, improving both accessibility and aesthetics in communications. The clean and intuitive HTML interface makes it user-friendly and accessible for everyone. Whether you're looking to share links on social media, through email, or for any other purpose, our URL Shortener provides a quick, reliable, and hassle-free solution.",
     image:
       "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/url-shortener.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
-    tags: ["JavaScript", "CSS", "HTML",],
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "",
     github: "https://github.com/swa-aham/URL-Shortner",
     webapp: "https://url-shortner-chi-drab.vercel.app/",
