@@ -15,6 +15,7 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Starfield from "react-starfield";
+import { Analytics } from "@vercel/analytics/react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -41,35 +42,41 @@ function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal);
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Starfield
-        starCount={1000}
-        starColor={[255, 255, 255]}
-        speedFactor={0.05}
-        backgroundColor="black"
-      />
-      <Router>
-        <Navbar />
-        <Body>
-          <HeroSection />
-          <Wrapper>
-            <Skills />
-          </Wrapper>
-          <Wrapper>
-            <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          </Wrapper>
-          <Experience />
-          <Wrapper>
-            <Education />
-            <Contact />
-          </Wrapper>
-          <Footer />
-          {openModal.state && (
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          )}
-        </Body>
-      </Router>
-    </ThemeProvider>
+    (<Analytics />),
+    (
+      <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+        <Starfield
+          starCount={1000}
+          starColor={[255, 255, 255]}
+          speedFactor={0.05}
+          backgroundColor="black"
+        />
+        <Router>
+          <Navbar />
+          <Body>
+            <HeroSection />
+            <Wrapper>
+              <Skills />
+            </Wrapper>
+            <Wrapper>
+              <Projects openModal={openModal} setOpenModal={setOpenModal} />
+            </Wrapper>
+            <Experience />
+            <Wrapper>
+              <Education />
+              <Contact />
+            </Wrapper>
+            <Footer />
+            {openModal.state && (
+              <ProjectDetails
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            )}
+          </Body>
+        </Router>
+      </ThemeProvider>
+    )
   );
 }
 
