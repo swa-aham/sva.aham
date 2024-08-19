@@ -274,7 +274,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "Placement Cell of DA-IICT",
     date: "Sept 2022 - Dec 2022",
-    desc: "Added features to the web application and improved user experience for the existing placcement portal.",
+    desc: "Added features to the web application and improved user experience for the existing placement portal.",
     skills: ["React", "NodeJs", "JavaScript"],
     doc: "",
   },
