@@ -256,7 +256,6 @@ export const experiences = [
     date: "Dec 2023 - May 2024",
     desc: "Created an integration of Bitbucket platform with Elasticsearch to fetch data from external sources and index it within Elasticsearch.",
     skills: ["Python", "ELK"],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
     id: 1,
