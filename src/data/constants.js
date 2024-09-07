@@ -335,7 +335,7 @@ export const projects = [
     description:
       "Developed a scalable and secure custom GPT model using ShadeCN, Node.js, and TypeScript. Leveraged Gemini API to provide advanced language capabilities and integrated Clerk for robust authentication, enabling up to 10,000 daily logins. This project demonstrates expertise in AI model development, backend engineering, and user authentication.",
     image:
-      "https://www.imghippo.com/i/qSmBW1725747436.png",
+      "https://i.imghippo.com/files/qSmBW1725747436.png",
     tags: [
       "Typescript",
       "Next.js",
