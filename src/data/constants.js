@@ -330,25 +330,21 @@ export const projects = [
   },
   {
     id: 9,
-    title: "AI-Chatbot",
+    title: "Next GPT",
     date: "",
     description:
-      "Our AI-Chatbot project leverages modern web technologies to provide an intelligent and interactive conversational experience. Built with a robust stack consisting of React, Node.js, Express.js, and MongoDB, this chatbot offers seamless real-time communication, user-friendly interface, and efficient data handling.",
+      "Developed a scalable and secure custom GPT model using ShadeCN, Node.js, and TypeScript. Leveraged Gemini API to provide advanced language capabilities and integrated Clerk for robust authentication, enabling up to 10,000 daily logins. This project demonstrates expertise in AI model development, backend engineering, and user authentication.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRir1STQFTZORbJiG_fAzOv0MwG3txOmzb1ZA&s",
+      "https://www.imghippo.com/i/qSmBW1725747436.png",
     tags: [
       "Typescript",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "MUI",
-      "CSS",
-      "EJS",
+      "Next.js",
+      "Gemini",
+      "ShadeCN",
     ],
     category: "web app",
-    github: "https://github.com/swa-aham/AI-Chatbot",
-    webapp: "https://github.com/swa-aham/AI-Chatbot",
+    github: "https://github.com/swa-aham/Next-GPT",
+    webapp: "https://next-gpt-mu.vercel.app/",
   },
   // {
   //   id: 0,
