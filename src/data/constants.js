@@ -10,7 +10,7 @@ export const Bio = {
     "I am a passionate & highly motivated software engineer with 1+ years of industry experience crafting efficient and user-friendly applications. I have completed my graduation from DA-IICT, Gandhinagar. I've been on an exciting journey of learning and growth.",
   github: "https://github.com/swa-aham",
   resume:
-    "https://drive.google.com/file/d/1XUefn4_i6J_E8G869SSqfMgoJf43rGgI/view?usp=sharing",
+    "https://drive.google.com/file/d/1QLI9n9oLMH4ErAYVPMxuQenOC7pFFBVs/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/soham-mandaviya/",
   twitter: "https://x.com/swa_aham",
   insta: "https://www.instagram.com/sva.aham/",
