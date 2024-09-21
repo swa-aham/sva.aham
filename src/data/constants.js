@@ -233,7 +233,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
     role: "Software Engineer",
     company: "Crest Data",
-    date: "May 2024 - Present",
+    date: "Dec 2023 - Present",
     desc: (
       <ul>
         <li>
@@ -254,15 +254,6 @@ export const experiences = [
       </ul>
     ),
     skills: ["Docker", "AWS", "Python", "Elasticsearch", "ELK"],
-  },
-  {
-    id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
-    role: "Software Engineer Intern",
-    company: "Crest Data",
-    date: "Dec 2023 - May 2024",
-    desc: "Created an integration of Bitbucket platform with Elasticsearch to fetch data from external sources and index it within Elasticsearch.",
-    skills: ["Python", "ELK"],
   },
   {
     id: 1,
