@@ -10,8 +10,10 @@ export const Bio = {
     "I am a passionate & highly motivated software engineer with 1+ years of industry experience crafting efficient and user-friendly applications. I have completed my graduation from DA-IICT, Gandhinagar. I've been on an exciting journey of learning and growth.",
   github: "https://github.com/swa-aham",
   resume:
-    "https://drive.google.com/file/d/1Zb77V4P_Hc80U5GpajdpTaFMQJAWpwPn/view?usp=sharing",
+    "https://drive.google.com/file/d/1XUefn4_i6J_E8G869SSqfMgoJf43rGgI/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/soham-mandaviya/",
+  leetcode: "https://leetcode.com/u/soham_mandaviya/",
+  GFG: "https://www.geeksforgeeks.org/user/202001142/",
   twitter: "https://x.com/swa_aham",
   insta: "https://www.instagram.com/sva.aham/",
   facebook: "",
@@ -233,48 +235,62 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
     role: "Software Engineer",
     company: "Crest Data",
-    date: "Dec 2023 - Present",
+    date: "June 2024 - Present",
     desc: (
       <ul>
         <li>
-          Developed and implemented Elasticsearch data connectors for various
-          platforms (GitHub, Confluence, Bitbucket, MySQL, Oracle, Redis, etc.)
-          to fetch data from external sources and index it within Elasticsearch.
+          Contributed to a project to develop Elasticsearch data connectors to centralize and index data from multiple
+          platforms, improving search efficiency by 40%, achieving 100% controlled data access and enhanced
+          development workflows through a searchable and controlled platform.
         </li>
         <li>
-          Increased searchability and accessibility of data across the
-          organization by building connectors, resulting in a 40% reduction in
-          search time.
+          Engineered and implemented an automation tool to seamlessly migrate Splunk monitoring and logging data,
+          visualizations, alerts, and queries to Datadog.
         </li>
         <li>
-          Improved development workflows by streamlining data access through a
-          centralized and searchable platform (Elasticsearch), ensuring 100%
-          controlled access.
+          Contributed to developing a solution that simplifies the transition to Datadog’s advanced observability platform,
+          reducing complexity and risk.
         </li>
       </ul>
     ),
-    skills: ["Docker", "AWS", "Python", "Elasticsearch", "ELK"],
+    skills: ["Docker", "AWS", "Python", "Elasticsearch", "Spring Boot"],
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
+    role: "Software Engineer Intern",
+    company: "Crest Data",
+    date: "Dec 2023 - May 2024",
+    desc: (
+      <ul>
+        <li>
+          Developed a novel Bitbucket connector for Elasticsearch, enhancing search capabilities by indexing data from
+          Bitbucket. Gained hands-on experience in SDLC, Agile methodologies, and development workflow
+        </li>
+      </ul>
+    ),
+    skills: ["Docker", "AWS", "Python", "Elasticsearch", "Spring Boot"],
   },
   {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrpc-YSRNb8opSkAWej0DjHCL2REOmAuGNnBxx9CFBw&s",
-    role: "Summer Research Intern",
+    role: "Summer Research Assistant",
     company: "DA-IICT",
     date: "May 2023 - July 2023",
     desc: "Added some good features and improvements to the existing library management system of university  .",
     skills: ["ReactJS", "NodeJs", "Material UI", "HTML", "CSS", "JavaScript"],
     doc: "",
   },
-  {
-    id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrpc-YSRNb8opSkAWej0DjHCL2REOmAuGNnBxx9CFBw&s",
-    role: "Full Stack Developer",
-    company: "Placement Cell of DA-IICT",
-    date: "Sept 2022 - Dec 2022",
-    desc: "Added features to the web application and improved user experience for the existing placement portal.",
-    skills: ["React", "NodeJs", "JavaScript"],
-    doc: "",
-  },
+  // {
+  //   id: 0,
+  //   img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrpc-YSRNb8opSkAWej0DjHCL2REOmAuGNnBxx9CFBw&s",
+  //   role: "Full Stack Developer",
+  //   company: "Placement Cell of DA-IICT",
+  //   date: "Sept 2022 - Dec 2022",
+  //   desc: "Added features to the web application and improved user experience for the existing placement portal.",
+  //   skills: ["React", "NodeJs", "JavaScript"],
+  //   doc: "",
+  // },
 ];
 
 export const education = [
