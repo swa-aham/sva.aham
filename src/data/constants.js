@@ -317,7 +317,8 @@ export const projects = [
     date: "",
     description:
       "This is a Chrome extension that combines text summarization and note-taking to enhance research efficiency. The tool allows users to quickly condense lengthy content and capture key insights, streamlining the process of gathering and organizing information for easy reference.",
-    image: "preview.png",
+    // image: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/76/1a/d8761a8a-e251-0867-1743-7189846f3f5d/AppIcon-1x_U007ephone-0-85-220-0.png/512x512bb.jpg",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6c/38/7f6c3835-1202-52f2-1440-4bdca7432c74/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
     tags: [
       "Java",
       "Spring Boot",
