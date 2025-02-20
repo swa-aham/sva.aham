@@ -306,12 +306,27 @@ export const projects = [
       "React Js",
       "MongoDb",
       "Node Js",
-      "Express Js",
-      "React PDF Renderer",
     ],
     category: "web app",
     github: "https://github.com/swa-aham/Resumify",
     webapp: "https://resumify-black.vercel.app/",
+  },
+  {
+    id: 1,
+    title: "Research Assistant",
+    date: "",
+    description:
+      "This is a Chrome extension that combines text summarization and note-taking to enhance research efficiency. The tool allows users to quickly condense lengthy content and capture key insights, streamlining the process of gathering and organizing information for easy reference.",
+    image: "preview.png",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "JS",
+      "Gemini-Flash"
+    ],
+    category: "web app",
+    github: "https://github.com/swa-aham/Research-Assistant-Extension",
+    webapp: "",
   },
   {
     id: 9,
