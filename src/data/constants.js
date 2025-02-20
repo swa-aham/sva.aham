@@ -7,10 +7,10 @@ export const Bio = {
     "Competitive Programmer",
   ],
   description:
-    "I am a passionate & highly motivated software engineer with 1+ years of industry experience crafting efficient and user-friendly applications. I have completed my graduation from DA-IICT, Gandhinagar. I've been on an exciting journey of learning and growth.",
+    "I am a passionate software engineer with 1 year of total industry experience crafting efficient and user-friendly applications. I have completed my graduation from DA-IICT, Gandhinagar. I've been on an exciting journey of learning and growth.",
   github: "https://github.com/swa-aham",
   resume:
-    "https://drive.google.com/file/d/1XUefn4_i6J_E8G869SSqfMgoJf43rGgI/view?usp=sharing",
+    "https://drive.google.com/file/d/1GN_hOmb_wowiPzhGK7Po7jQ1sRW1hdky/view",
   linkedin: "https://www.linkedin.com/in/soham-mandaviya/",
   leetcode: "https://leetcode.com/u/soham_mandaviya/",
   GFG: "https://www.geeksforgeeks.org/user/202001142/",
