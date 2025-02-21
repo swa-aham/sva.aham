@@ -300,12 +300,12 @@ export const projects = [
     title: "Resumify",
     date: "",
     description:
-      "Resumify simplifies the process of creating professional resumes. Utilizing cutting-edge web technologies, this tool allows users to fill out a single form and automatically generates a polished PDF resume.",
-    image: "preview.png",
+      "Resumify simplifies the resume creation process with advanced web technologies, allowing users to easily generate a polished PDF resume by filling out a simple form. Now enhanced with an AI-powered Resume Roaster, this tool goes beyond creation – it analyzes and critiques uploaded resumes, offering personalized feedback to help you stand out. Whether you're building a new resume or refining an existing one, Resumify ensures your resume is both professional and impactful.",
+    image: "image.png",
     tags: [
-      "React Js",
-      "MongoDb",
+      "React",,
       "Node Js",
+      "Python",
     ],
     category: "web app",
     github: "https://github.com/swa-aham/Resumify",
