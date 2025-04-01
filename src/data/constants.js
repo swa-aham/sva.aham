@@ -10,7 +10,7 @@ export const Bio = {
     "I am a passionate software engineer with 1 year of total industry experience crafting efficient and user-friendly applications. I have completed my graduation from DA-IICT, Gandhinagar. I've been on an exciting journey of learning and growth.",
   github: "https://github.com/swa-aham",
   resume:
-    "https://drive.google.com/file/d/1ZBpMKUQoDUtmphoWd_t9c0XKaYJaHqff/view?usp=sharing",
+    "https://drive.google.com/file/d/12KKjD0bcSzbMy3aatEjm2L72QNIgVw28/view",
   linkedin: "https://www.linkedin.com/in/soham-mandaviya/",
   leetcode: "https://leetcode.com/u/soham_mandaviya/",
   GFG: "https://www.geeksforgeeks.org/user/202001142/",
