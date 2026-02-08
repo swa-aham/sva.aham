@@ -42,12 +42,13 @@ export const skills = [
         name: "Spring Boot",
         // image: "https://icon.icepanel.io/Technology/svg/Spring-Boot.svg",
         // image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/512px-Spring_Boot.svg.png"
-        image: "https://img.icons8.com/?size=256&id=2oBx9FpXcbLa&format=png"
+        image: "https://img.icons8.com/?size=256&id=2oBx9FpXcbLa&format=png",
       },
       {
         name: "Spring",
         // image: "https://icon.icepanel.io/Technology/svg/Spring.svg",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/512px-Spring_Boot.svg.png"
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/512px-Spring_Boot.svg.png",
       },
       // {
       //   name: "Tailwind CSS",
@@ -217,13 +218,21 @@ export const experiences = [
     desc: (
       <ul>
         <li>
-          Developed and enhanced core EHR backend services for scheduling, clinical documentation, lab orders, and e-prescriptions, implementing RESTful APIs in Java with strong data validation and consistency.
+          Developed and enhanced core EHR backend services for scheduling,
+          clinical documentation, lab orders, and e-prescriptions, implementing
+          RESTful APIs in Java with strong data validation and consistency.
         </li>
         <li>
-          Built a resource scheduling system and clinical documentation workflows, enabling efficient appointment management, progress note recording, lab requests, and medication prescribing while ensuring secure data handling.
+          Built a resource scheduling system and clinical documentation
+          workflows, enabling efficient appointment management, progress note
+          recording, lab requests, and medication prescribing while ensuring
+          secure data handling.
         </li>
         <li>
-          Integrated lab and e-prescription pipelines and contributed to an AI-driven no-show prediction feature, collaborating with product, QA, and clinical teams to deliver features aligned with real-world healthcare workflows.
+          Integrated lab and e-prescription pipelines and contributed to an
+          AI-driven no-show prediction feature, collaborating with product, QA,
+          and clinical teams to deliver features aligned with real-world
+          healthcare workflows.
         </li>
       </ul>
     ),
@@ -238,17 +247,20 @@ export const experiences = [
     desc: (
       <ul>
         <li>
-          Contributed to a project to develop Elasticsearch data connectors to centralize and index data from multiple
-          platforms, improving search efficiency by 40%, achieving 100% controlled data access and enhanced
+          Contributed to a project to develop Elasticsearch data connectors to
+          centralize and index data from multiple platforms, improving search
+          efficiency by 40%, achieving 100% controlled data access and enhanced
           development workflows through a searchable and controlled platform.
         </li>
         <li>
-          Engineered and implemented an automation tool to seamlessly migrate Splunk monitoring and logging data,
-          visualizations, alerts, and queries to Datadog.
+          Engineered and implemented an automation tool to seamlessly migrate
+          Splunk monitoring and logging data, visualizations, alerts, and
+          queries to Datadog.
         </li>
         <li>
-          Contributed to developing a solution that simplifies the transition to Datadog’s advanced observability platform,
-          reducing complexity and risk.
+          Contributed to developing a solution that simplifies the transition to
+          Datadog’s advanced observability platform, reducing complexity and
+          risk.
         </li>
       </ul>
     ),
@@ -263,8 +275,9 @@ export const experiences = [
     desc: (
       <ul>
         <li>
-          Developed a novel Bitbucket connector for Elasticsearch, enhancing search capabilities by indexing data from
-          Bitbucket. Gained hands-on experience in SDLC, Agile methodologies, and development workflow
+          Developed a novel Bitbucket connector for Elasticsearch, enhancing
+          search capabilities by indexing data from Bitbucket. Gained hands-on
+          experience in SDLC, Agile methodologies, and development workflow
         </li>
       </ul>
     ),
@@ -323,11 +336,7 @@ export const projects = [
     description:
       "Resumify simplifies the resume creation process with advanced web technologies, allowing users to easily generate a polished PDF resume by filling out a simple form. Now enhanced with an AI-powered Resume Roaster, this tool goes beyond creation – it analyzes and critiques uploaded resumes, offering personalized feedback to help you stand out. Whether you're building a new resume or refining an existing one, Resumify ensures your resume is both professional and impactful.",
     image: "image.png",
-    tags: [
-      "React",,
-      "Node Js",
-      "Python",
-    ],
+    tags: ["React", "Node Js", "Python"],
     category: "web app",
     github: "https://github.com/swa-aham/Resumify",
     webapp: "https://resumify-black.vercel.app/",
@@ -339,13 +348,9 @@ export const projects = [
     description:
       "This is a Chrome extension that combines text summarization and note-taking to enhance research efficiency. The tool allows users to quickly condense lengthy content and capture key insights, streamlining the process of gathering and organizing information for easy reference.",
     // image: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/76/1a/d8761a8a-e251-0867-1743-7189846f3f5d/AppIcon-1x_U007ephone-0-85-220-0.png/512x512bb.jpg",
-    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6c/38/7f6c3835-1202-52f2-1440-4bdca7432c74/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
-    tags: [
-      "Java",
-      "Spring Boot",
-      "JS",
-      "Gemini-Flash"
-    ],
+    image:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7f/6c/38/7f6c3835-1202-52f2-1440-4bdca7432c74/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+    tags: ["Java", "Spring Boot", "JS", "Gemini-Flash"],
     category: "web app",
     github: "https://github.com/swa-aham/Research-Assistant-Extension",
     webapp: "",
@@ -356,13 +361,8 @@ export const projects = [
     date: "",
     description:
       "Developed a scalable and secure custom GPT model using Next.js, and TypeScript. Leveraged Gemini API to provide advanced language capabilities and integrated Clerk for robust authentication, enabling up to 10,000 daily logins. This project demonstrates expertise in AI model development, backend engineering, and user authentication.",
-    image:
-      "https://i.imghippo.com/files/qSmBW1725747436.png",
-    tags: [
-      "Typescript",
-      "Next.js",
-      "Gemini",
-    ],
+    image: "https://i.imghippo.com/files/qSmBW1725747436.png",
+    tags: ["Typescript", "Next.js", "Gemini"],
     category: "web app",
     github: "https://github.com/swa-aham/Next-GPT",
     webapp: "https://next-gpt-mu.vercel.app/",
