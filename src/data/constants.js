@@ -10,7 +10,7 @@ export const Bio = {
     "I am a passionate software engineer with 1 year of total industry experience crafting efficient and user-friendly applications. I have completed my graduation from DA-IICT, Gandhinagar. I've been on an exciting journey of learning and growth.",
   github: "https://github.com/swa-aham",
   resume:
-    "https://drive.google.com/file/d/12KKjD0bcSzbMy3aatEjm2L72QNIgVw28/view",
+    "https://drive.google.com/file/d/12wH8oXT7YVV8XDfOJfR0LznnkNfqqkI3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/soham-mandaviya/",
   leetcode: "https://leetcode.com/u/soham_mandaviya/",
   GFG: "https://www.geeksforgeeks.org/user/202001142/",
@@ -210,10 +210,31 @@ export const skills = [
 export const experiences = [
   {
     id: 3,
+    img: "https://cdn.brandfetch.io/idfo-ApodL/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1667944505736",
+    role: "Software Developer Engineer I",
+    company: "eClinicalWorks",
+    date: "Jan 2025 - Present",
+    desc: (
+      <ul>
+        <li>
+          Developed and enhanced core EHR backend services for scheduling, clinical documentation, lab orders, and e-prescriptions, implementing RESTful APIs in Java with strong data validation and consistency.
+        </li>
+        <li>
+          Built a resource scheduling system and clinical documentation workflows, enabling efficient appointment management, progress note recording, lab requests, and medication prescribing while ensuring secure data handling.
+        </li>
+        <li>
+          Integrated lab and e-prescription pipelines and contributed to an AI-driven no-show prediction feature, collaborating with product, QA, and clinical teams to deliver features aligned with real-world healthcare workflows.
+        </li>
+      </ul>
+    ),
+    skills: ["Java", "Spring Boot", "MySQL", "Microservices", "Cloud"],
+  },
+  {
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxyvgv3E-mk7xdh_iSxO-aaze5krs0EDkJ6lcgfZWlg&s",
     role: "Software Engineer",
     company: "Crest Data",
-    date: "June 2024 - Present",
+    date: "June 2024 - Jan 2025",
     desc: (
       <ul>
         <li>
@@ -231,7 +252,7 @@ export const experiences = [
         </li>
       </ul>
     ),
-    skills: ["Docker", "AWS", "Python", "Elasticsearch", "Spring Boot"],
+    skills: ["Docker", "Kafka", "Python", "Elasticsearch", "Spring Boot"],
   },
   {
     id: 3,
