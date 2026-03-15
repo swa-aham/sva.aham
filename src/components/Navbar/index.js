@@ -1,3 +1,9 @@
+// src/components/Navbar/index.js — UPDATED
+// Changes:
+// 1. Added "Coding Profiles" nav link pointing to #coding-profiles
+// 2. Added same link to mobile menu
+// 3. All other logic unchanged
+
 import React from "react";
 import {
   Nav,
@@ -16,11 +22,11 @@ import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 import { useTheme } from "styled-components";
-// import portfolio_logo from '../../public/portfolio_logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
+
   return (
     <Nav>
       <NavbarContainer>
@@ -37,67 +43,36 @@ const Navbar = () => {
             <DiCssdeck size="3rem" /> <Span>sva.aham</Span>
           </div>
         </NavLogo>
+
         <MobileIcon>
-          <FaBars
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-          />
+          <FaBars onClick={() => setIsOpen(!isOpen)} />
         </MobileIcon>
+
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          {/* NEW */}
+          <NavLink href="#coding-profiles">Coding</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
+
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
             Github Profile
           </GitHubButton>
         </ButtonContainer>
+
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
-            <MobileLink
-              href="#about"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              About
-            </MobileLink>
-            <MobileLink
-              href="#skills"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Skills
-            </MobileLink>
-            <MobileLink
-              href="#experience"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Experience
-            </MobileLink>
-            <MobileLink
-              href="#projects"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Projects
-            </MobileLink>
-            <MobileLink
-              href="#education"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Education
-            </MobileLink>
+            <MobileLink href="#about" onClick={() => setIsOpen(!isOpen)}>About</MobileLink>
+            <MobileLink href="#skills" onClick={() => setIsOpen(!isOpen)}>Skills</MobileLink>
+            <MobileLink href="#projects" onClick={() => setIsOpen(!isOpen)}>Projects</MobileLink>
+            {/* NEW */}
+            <MobileLink href="#coding-profiles" onClick={() => setIsOpen(!isOpen)}>Coding Profiles</MobileLink>
+            <MobileLink href="#experience" onClick={() => setIsOpen(!isOpen)}>Experience</MobileLink>
+            <MobileLink href="#education" onClick={() => setIsOpen(!isOpen)}>Education</MobileLink>
             <GitHubButton
               style={{
                 padding: "10px 16px",

@@ -1,3 +1,9 @@
+// src/App.js — REDESIGNED
+// Changes:
+// 1. Added CodingProfiles section between Projects and Experience
+// 2. Wrapped CodingProfiles in the gradient Wrapper for visual consistency
+// 3. Kept all existing sections unchanged; only additions are new imports and the new section
+
 import { ThemeProvider } from "styled-components";
 import { useState } from "react";
 import { darkTheme, lightTheme } from "./utils/Themes.js";
@@ -12,6 +18,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import CodingProfiles from "./components/CodingProfiles"; // NEW
 import styled from "styled-components";
 import Starfield from "react-starfield";
 import { Analytics } from "@vercel/analytics/react";
@@ -37,10 +44,11 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
+
 function App() {
   const [darkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal);
+
   return (
     (<Analytics />),
     (
@@ -61,6 +69,12 @@ function App() {
             <Wrapper>
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
             </Wrapper>
+
+            {/* ── NEW: Coding Profiles ── */}
+            <Wrapper>
+              <CodingProfiles />
+            </Wrapper>
+
             <Experience />
             <Wrapper>
               <Education />
